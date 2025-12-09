@@ -113,7 +113,7 @@ public function setIridaBar(_:String) {
 
     barPath = "game/bars/" + _;
 
-    if (iridaBar.camera.downscroll) {
+    if (Options.downscroll) {
         if (Assets.exists(barPath + "-downscroll")) barPath += "-downscroll";
         iridaBar.flipY = !StringTools.endsWith(barPath, "-downscroll");
     }
