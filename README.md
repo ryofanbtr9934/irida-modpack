@@ -1,3 +1,4 @@
+Wanna play the mod but it's broken? Use [this version of Codename Engine](https://drive.google.com/file/d/1dE0MvPBKZVcJQZDajIQVJWoZJaHZ_kD7/view)!
 # Irida is.... archived medias?
 
 ![garten-of-banban-banban](https://github.com/user-attachments/assets/91a88299-d931-4462-a978-89c317687007)
