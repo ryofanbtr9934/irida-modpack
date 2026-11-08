@@ -70,11 +70,11 @@ function postCreate() {
     remove(healthBarBG);
     insert(members.indexOf(healthBar) + 1, iridaBar).camera = camHUD;
     iridaBar.setPosition(FlxG.width / 2 - 1010 / 2, healthBar.y - 75);
-    iridaBar.antialiasing = Options.antialiasing;
+    iridaBar.antialiasing = true;
 
     healthBar.scale.set(1.25, 1.25);
     healthBar.setParent(whydoihavetodothis, "healthyeah");
-    healthBar.numDivisions *= 1000;
+    healthBar.unbounded = true;
     healthBar.scrollFactor.set(1, 1);
 
     scripts.call("postPostCreate");
